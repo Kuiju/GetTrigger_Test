@@ -1,0 +1,468 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49b9cd85c495e4f5abe0fb43d2d26643, type: 3}
+  m_Name: Veer Build Setting
+  m_EditorClassIdentifier: 
+  debugBuild: 1
+  PlatformBuildSettings:
+  - Platform: Daydream
+    GeneralBuildSetting:
+      applicationIdentifier: com.velotech.veervrdaydream
+      productName: VeeR VR
+      companyName: velotech
+      version: 2.2.8
+      vrDeviceName: daydream
+      scriptDefines: 
+      connectProfiler: 0
+      development: 0
+      bExportServerStage: 0
+      bExportOverSea: 1
+      virtualRealitySupported: 1
+      use32BitDisplayBuffer: 1
+      MTRendering: 0
+      platform: 2
+      scriptingRuntimeVersion: 0
+      scriptingImplementation: 1
+      stereoRenderingPath: 0
+      buildTargetGroup: 7
+      buildTarget: 13
+      preprocessBuildClass: 
+      postprocessBuildClass: DaydreamBuildPostprocessor
+      buildOptions: 32
+      excludePath: []
+    AndroidBuildSetting:
+      versionCode: 49
+      exportAsGoogleAndroidProject: 1
+      minSdkVersion: 24
+      targetSdkVersion: 0
+      androidReleaseMinification: 0
+      androidDebugMinification: 0
+      androidBuildSystem: 1
+    WindowsBuildSetting:
+      resolutionDialogSetting: 0
+      defaultFullScreen: 0
+      defaultScreenWidth: 1280
+      defaultScreenHeight: 720
+      forceSingleInstance: 1
+      runInBackground: 0
+  - Platform: OculusGoAndGear
+    GeneralBuildSetting:
+      applicationIdentifier: com.velotech.veervr
+      productName: VeeR VR
+      companyName: velotech
+      version: 2.2.8
+      vrDeviceName: Oculus
+      scriptDefines: 
+      connectProfiler: 0
+      development: 0
+      bExportServerStage: 0
+      bExportOverSea: 1
+      virtualRealitySupported: 1
+      use32BitDisplayBuffer: 1
+      MTRendering: 0
+      platform: 8
+      scriptingRuntimeVersion: 0
+      scriptingImplementation: 1
+      stereoRenderingPath: 0
+      buildTargetGroup: 7
+      buildTarget: 13
+      preprocessBuildClass: OculusGoBuildPreprocessor
+      postprocessBuildClass: OculusGoBuildPostprocessor
+      buildOptions: 40
+      excludePath:
+      - SDK/Oculus
+    AndroidBuildSetting:
+      versionCode: 48
+      exportAsGoogleAndroidProject: 1
+      minSdkVersion: 24
+      targetSdkVersion: 0
+      androidReleaseMinification: 0
+      androidDebugMinification: 0
+      androidBuildSystem: 1
+    WindowsBuildSetting:
+      resolutionDialogSetting: 0
+      defaultFullScreen: 0
+      defaultScreenWidth: 1280
+      defaultScreenHeight: 720
+      forceSingleInstance: 1
+      runInBackground: 0
+  - Platform: MiVR
+    GeneralBuildSetting:
+      applicationIdentifier: com.velotech.veervr
+      productName: VeeR VR
+      companyName: velotech
+      version: 2.2.8
+      vrDeviceName: Oculus
+      scriptDefines: 
+      connectProfiler: 0
+      development: 0
+      bExportServerStage: 0
+      bExportOverSea: 0
+      virtualRealitySupported: 1
+      use32BitDisplayBuffer: 1
+      MTRendering: 0
+      platform: 6
+      scriptingRuntimeVersion: 0
+      scriptingImplementation: 1
+      stereoRenderingPath: 0
+      buildTargetGroup: 7
+      buildTarget: 13
+      preprocessBuildClass: 
+      postprocessBuildClass: MiVRBuildPostprocessor
+      buildOptions: 32
+      excludePath:
+      - SDK/Oculus
+    AndroidBuildSetting:
+      versionCode: 48
+      exportAsGoogleAndroidProject: 1
+      minSdkVersion: 24
+      targetSdkVersion: 0
+      androidReleaseMinification: 0
+      androidDebugMinification: 0
+      androidBuildSystem: 1
+    WindowsBuildSetting:
+      resolutionDialogSetting: 0
+      defaultFullScreen: 0
+      defaultScreenWidth: 1280
+      defaultScreenHeight: 720
+      forceSingleInstance: 1
+      runInBackground: 0
+  - Platform: WindowsMR
+    GeneralBuildSetting:
+      applicationIdentifier: com.velotech.veervrwinmr
+      productName: VeeR VR
+      companyName: velotech
+      version: 2.2.8
+      vrDeviceName: Windows Mixed Reality
+      scriptDefines: 
+      connectProfiler: 0
+      development: 0
+      bExportServerStage: 0
+      bExportOverSea: 0
+      virtualRealitySupported: 1
+      use32BitDisplayBuffer: 1
+      MTRendering: 0
+      platform: 9
+      scriptingRuntimeVersion: 0
+      scriptingImplementation: 1
+      stereoRenderingPath: 0
+      buildTargetGroup: 14
+      buildTarget: 21
+      preprocessBuildClass: 
+      postprocessBuildClass: 
+      buildOptions: 262144
+      excludePath:
+      - SDK/WindowsMR
+    AndroidBuildSetting:
+      versionCode: 48
+      exportAsGoogleAndroidProject: 1
+      minSdkVersion: 24
+      targetSdkVersion: 0
+      androidReleaseMinification: 0
+      androidDebugMinification: 0
+      androidBuildSystem: 1
+    WindowsBuildSetting:
+      resolutionDialogSetting: 0
+      defaultFullScreen: 0
+      defaultScreenWidth: 1280
+      defaultScreenHeight: 720
+      forceSingleInstance: 1
+      runInBackground: 0
+  - Platform: Oculus
+    GeneralBuildSetting:
+      applicationIdentifier: com.velotech.veervr
+      productName: VeeR VR
+      companyName: velotech
+      version: 2.2.8
+      vrDeviceName: Oculus
+      scriptDefines: 
+      connectProfiler: 0
+      development: 0
+      bExportServerStage: 0
+      bExportOverSea: 1
+      virtualRealitySupported: 1
+      use32BitDisplayBuffer: 1
+      MTRendering: 1
+      platform: 4
+      scriptingRuntimeVersion: 0
+      scriptingImplementation: 0
+      stereoRenderingPath: 0
+      buildTargetGroup: 1
+      buildTarget: 19
+      preprocessBuildClass: 
+      postprocessBuildClass: 
+      buildOptions: 64
+      excludePath:
+      - SDK/Oculus
+    AndroidBuildSetting:
+      versionCode: 48
+      exportAsGoogleAndroidProject: 1
+      minSdkVersion: 24
+      targetSdkVersion: 0
+      androidReleaseMinification: 0
+      androidDebugMinification: 0
+      androidBuildSystem: 1
+    WindowsBuildSetting:
+      resolutionDialogSetting: 0
+      defaultFullScreen: 0
+      defaultScreenWidth: 1280
+      defaultScreenHeight: 720
+      forceSingleInstance: 1
+      runInBackground: 0
+  - Platform: Steam
+    GeneralBuildSetting:
+      applicationIdentifier: com.velotech.veervr
+      productName: VeeR VR
+      companyName: velotech
+      version: 2.2.8
+      vrDeviceName: OpenVR
+      scriptDefines: 
+      connectProfiler: 0
+      development: 0
+      bExportServerStage: 0
+      bExportOverSea: 1
+      virtualRealitySupported: 1
+      use32BitDisplayBuffer: 1
+      MTRendering: 1
+      platform: 10
+      scriptingRuntimeVersion: 0
+      scriptingImplementation: 0
+      stereoRenderingPath: 0
+      buildTargetGroup: 1
+      buildTarget: 19
+      preprocessBuildClass: 
+      postprocessBuildClass: 
+      buildOptions: 64
+      excludePath:
+      - SDK/SteamVR
+      - SDK/Steam
+    AndroidBuildSetting:
+      versionCode: 48
+      exportAsGoogleAndroidProject: 1
+      minSdkVersion: 24
+      targetSdkVersion: 0
+      androidReleaseMinification: 0
+      androidDebugMinification: 0
+      androidBuildSystem: 1
+    WindowsBuildSetting:
+      resolutionDialogSetting: 0
+      defaultFullScreen: 0
+      defaultScreenWidth: 1280
+      defaultScreenHeight: 720
+      forceSingleInstance: 1
+      runInBackground: 0
+  - Platform: Pico
+    GeneralBuildSetting:
+      applicationIdentifier: com.velotech.veervrpico
+      productName: VeeR VR
+      companyName: velotech
+      version: 2.2.8
+      vrDeviceName: 
+      scriptDefines: NOVRBUILD
+      connectProfiler: 0
+      development: 0
+      bExportServerStage: 0
+      bExportOverSea: 0
+      virtualRealitySupported: 0
+      use32BitDisplayBuffer: 1
+      MTRendering: 0
+      platform: 11
+      scriptingRuntimeVersion: 0
+      scriptingImplementation: 1
+      stereoRenderingPath: 0
+      buildTargetGroup: 7
+      buildTarget: 13
+      preprocessBuildClass: PicoBuildPreprocessor
+      postprocessBuildClass: PicoBuildPostprocessor
+      buildOptions: 0
+      excludePath:
+      - SDK/Pico
+    AndroidBuildSetting:
+      versionCode: 48
+      exportAsGoogleAndroidProject: 1
+      minSdkVersion: 19
+      targetSdkVersion: 24
+      androidReleaseMinification: 0
+      androidDebugMinification: 0
+      androidBuildSystem: 1
+    WindowsBuildSetting:
+      resolutionDialogSetting: 0
+      defaultFullScreen: 0
+      defaultScreenWidth: 1280
+      defaultScreenHeight: 720
+      forceSingleInstance: 1
+      runInBackground: 0
+  - Platform: Vive
+    GeneralBuildSetting:
+      applicationIdentifier: com.velotech.veervr
+      productName: VeeR VR
+      companyName: velotech
+      version: 2.2.8
+      vrDeviceName: OpenVR
+      scriptDefines: 
+      connectProfiler: 0
+      development: 0
+      bExportServerStage: 0
+      bExportOverSea: 1
+      virtualRealitySupported: 1
+      use32BitDisplayBuffer: 1
+      MTRendering: 1
+      platform: 5
+      scriptingRuntimeVersion: 0
+      scriptingImplementation: 0
+      stereoRenderingPath: 0
+      buildTargetGroup: 1
+      buildTarget: 19
+      preprocessBuildClass: 
+      postprocessBuildClass: 
+      buildOptions: 0
+      excludePath:
+      - SDK/SteamVR
+    AndroidBuildSetting:
+      versionCode: 48
+      exportAsGoogleAndroidProject: 1
+      minSdkVersion: 24
+      targetSdkVersion: 0
+      androidReleaseMinification: 0
+      androidDebugMinification: 0
+      androidBuildSystem: 1
+    WindowsBuildSetting:
+      resolutionDialogSetting: 0
+      defaultFullScreen: 0
+      defaultScreenWidth: 1280
+      defaultScreenHeight: 720
+      forceSingleInstance: 1
+      runInBackground: 0
+  - Platform: ViveWave
+    GeneralBuildSetting:
+      applicationIdentifier: com.velotech.veervrvivewave
+      productName: VeeR VR
+      companyName: velotech
+      version: 2.2.8
+      vrDeviceName: 
+      scriptDefines: NOVRBUILD
+      connectProfiler: 0
+      development: 0
+      bExportServerStage: 0
+      bExportOverSea: 1
+      virtualRealitySupported: 0
+      use32BitDisplayBuffer: 1
+      MTRendering: 0
+      platform: 12
+      scriptingRuntimeVersion: 0
+      scriptingImplementation: 1
+      stereoRenderingPath: 0
+      buildTargetGroup: 7
+      buildTarget: 13
+      preprocessBuildClass: ViveWaveBuildPreprocessor
+      postprocessBuildClass: ViveWaveBuildPostprocessor
+      buildOptions: 32
+      excludePath:
+      - SDK/ViveWave
+    AndroidBuildSetting:
+      versionCode: 48
+      exportAsGoogleAndroidProject: 1
+      minSdkVersion: 24
+      targetSdkVersion: 0
+      androidReleaseMinification: 0
+      androidDebugMinification: 0
+      androidBuildSystem: 1
+    WindowsBuildSetting:
+      resolutionDialogSetting: 0
+      defaultFullScreen: 0
+      defaultScreenWidth: 1280
+      defaultScreenHeight: 720
+      forceSingleInstance: 1
+      runInBackground: 0
+  - Platform: DPVR
+    GeneralBuildSetting:
+      applicationIdentifier: com.velotech.veervr
+      productName: VeeR VR
+      companyName: velotech
+      version: 2.2.8
+      vrDeviceName: 
+      scriptDefines: NOVRBUILD
+      connectProfiler: 0
+      development: 0
+      bExportServerStage: 0
+      bExportOverSea: 0
+      virtualRealitySupported: 0
+      use32BitDisplayBuffer: 1
+      MTRendering: 0
+      platform: 13
+      scriptingRuntimeVersion: 0
+      scriptingImplementation: 1
+      stereoRenderingPath: 0
+      buildTargetGroup: 7
+      buildTarget: 13
+      preprocessBuildClass: DPVRBuildPreprocessor
+      postprocessBuildClass: DPVRBuildPostprocessor
+      buildOptions: 0
+      excludePath:
+      - SDK/DPVR
+    AndroidBuildSetting:
+      versionCode: 48
+      exportAsGoogleAndroidProject: 1
+      minSdkVersion: 19
+      targetSdkVersion: 24
+      androidReleaseMinification: 0
+      androidDebugMinification: 0
+      androidBuildSystem: 1
+    WindowsBuildSetting:
+      resolutionDialogSetting: 0
+      defaultFullScreen: 0
+      defaultScreenWidth: 1280
+      defaultScreenHeight: 720
+      forceSingleInstance: 1
+      runInBackground: 0
+  - Platform: CoocaaVR
+    GeneralBuildSetting:
+      applicationIdentifier: com.velotech.veervr
+      productName: VeeR VR
+      companyName: velotech
+      version: 2.2.8
+      vrDeviceName: 
+      scriptDefines: NOVRBUILD
+      connectProfiler: 0
+      development: 0
+      bExportServerStage: 0
+      bExportOverSea: 0
+      virtualRealitySupported: 0
+      use32BitDisplayBuffer: 1
+      MTRendering: 0
+      platform: 14
+      scriptingRuntimeVersion: 0
+      scriptingImplementation: 1
+      stereoRenderingPath: 0
+      buildTargetGroup: 7
+      buildTarget: 13
+      preprocessBuildClass: CoocaaVRBuildPreprocessor
+      postprocessBuildClass: CoocaaVRBuildPostprocessor
+      buildOptions: 32
+      excludePath:
+      - SDK/CoocaaVR
+    AndroidBuildSetting:
+      versionCode: 48
+      exportAsGoogleAndroidProject: 1
+      minSdkVersion: 19
+      targetSdkVersion: 24
+      androidReleaseMinification: 0
+      androidDebugMinification: 0
+      androidBuildSystem: 1
+    WindowsBuildSetting:
+      resolutionDialogSetting: 0
+      defaultFullScreen: 0
+      defaultScreenWidth: 1280
+      defaultScreenHeight: 720
+      forceSingleInstance: 1
+      runInBackground: 0
+  Index: 10
+  SelectionIndex: 10

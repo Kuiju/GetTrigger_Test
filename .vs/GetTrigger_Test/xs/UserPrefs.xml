@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{2294C33F-4605-095D-AE7A-C682FFE34567}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Detector.cs">
+    <Files>
+      <File FileName="Assets/KuijuTest.cs" Line="75" Column="21" />
+      <File FileName="Assets/Detector.cs" Line="1" Column="1" />
+      <File FileName="Assets/TriggerArea.cs" Line="1" Column="1" />
+      <File FileName="Assets/TargetAnchorConfig.cs" Line="1" Column="1" />
+      <File FileName="Assets/RectAreaCollection.cs" Line="1" Column="1" />
+      <File FileName="Assets/RectArea.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.GetTrigger__Test PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

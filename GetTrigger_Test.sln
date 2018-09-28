@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio for Mac
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetTrigger_Test", "GetTrigger_Test.csproj", "{2294C33F-4605-095D-AE7A-C682FFE34567}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetTrigger_Test.Editor", "GetTrigger_Test.Editor.csproj", "{959120A7-3743-0FF8-17E1-5E7E9B858925}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2294C33F-4605-095D-AE7A-C682FFE34567}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2294C33F-4605-095D-AE7A-C682FFE34567}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2294C33F-4605-095D-AE7A-C682FFE34567}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2294C33F-4605-095D-AE7A-C682FFE34567}.Release|Any CPU.Build.0 = Release|Any CPU
+		{959120A7-3743-0FF8-17E1-5E7E9B858925}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{959120A7-3743-0FF8-17E1-5E7E9B858925}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{959120A7-3743-0FF8-17E1-5E7E9B858925}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{959120A7-3743-0FF8-17E1-5E7E9B858925}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
